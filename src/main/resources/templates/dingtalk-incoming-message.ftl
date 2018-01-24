@@ -18,8 +18,8 @@
 {
     "msgtype": "markdown",
     "markdown": {
-        "title":"${jobName}升级${state}报告",
-        "text": "# ${jobName}升级${state}报告 \n ## 操&nbsp;&nbsp;作&nbsp;人: ${executionData.user} \n ## 项&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目:  ${executionData.project} \n ## 任&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;务: [${jobName}](${executionData.job.href}) \n ## 任务编号: [${executionData.id}](${executionData.href}) \n ## 执行参数: ${optionStr} "
+        "title":"${jobName}操作状态 ${state}",
+        "text": "# ${jobName}操作状态 \n # **${state}** \n ## 操&nbsp;&nbsp;作&nbsp;人: ${executionData.user} \n ## 项&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目:  ${executionData.project} \n ## 任&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;务: [${jobName}](${executionData.job.href}) \n ## 任务编号: [${executionData.id}](${executionData.href}) \n ## 执行参数: ${optionStr}"
      }
 }
 
